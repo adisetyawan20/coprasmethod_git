@@ -88,7 +88,7 @@
                 <td class="hidden-phone" align="center" >
 
                   <!-- belum bisa  -->
-                   <a href="#"><button type="button" class="btn btn-success" data-toggle="modal" data-target="#ModalNormalisaisi<?=$id_barang;?>"><i class="fa fa-save"></i> Proses <?=$fetch_alternatif['nm_barang'];?> </button></a>
+                   <a href="#"><button type="button" class="btn btn-success" data-toggle="modal" data-target="#ModalNormalisaisi<?=$id_barang;?>"><i class="fa fa-save"></i> Counting <?=$fetch_alternatif['nm_barang'];?> </button></a>
                   <a href="index.php?module=update_nilai_alternatif&id_barang=<?=$fetch_alternatif['id_barang']?>"><button type="button" class="btn btn-warning"><i class="fa fa-cog"></i>Edit</button></a>
                  <a href="index.php?module=hapus_nilai_alternatif&id_barang=<?=$fetch_alternatif['id_barang']?>"><button type="button" class="btn btn-danger"><i class="fa fa-trash"></i> Hapus</button></a>
                 </td>
